@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on QUAN ZHENG</title>
+    <link>https://quan-zheng.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on QUAN ZHENG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Quan Zheng</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://quan-zheng.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning to importance sample in primary sample space</title>
+      <link>https://quan-zheng.github.io/publication/impsamplepss19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/impsamplepss19/</guid>
+      <description> Preprint [PDF (19.4 MB)]
+ Supplementary materials [PDF (6.3 MB)]
+ Bibtex [bibtex]
+  </description>
+    </item>
+    
+    <item>
+      <title>NeuroLens: data-driven camera lens simulation using neural networks</title>
+      <link>https://quan-zheng.github.io/publication/neurolens16/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/neurolens16/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Adaptive rendering with adaptive order selection</title>
+      <link>https://quan-zheng.github.io/publication/17grapp_adaptiveorderselection/</link>
+      <pubDate>Wed, 01 Feb 2017 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/17grapp_adaptiveorderselection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive light paths sampling through full lens model</title>
+      <link>https://quan-zheng.github.io/publication/16icnc_adaptivelightpathssampling/</link>
+      <pubDate>Sun, 01 May 2016 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/16icnc_adaptivelightpathssampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optical simulation based on physically based renderer</title>
+      <link>https://quan-zheng.github.io/publication/18spie_opticalsimulation/</link>
+      <pubDate>Fri, 01 May 2015 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/18spie_opticalsimulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photon shooting with programmable scalar contribution function</title>
+      <link>https://quan-zheng.github.io/publication/15icig_photonshooting/</link>
+      <pubDate>Wed, 01 Apr 2015 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/15icig_photonshooting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

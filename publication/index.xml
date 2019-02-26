@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on QUAN ZHENG</title>
+    <link>https://quan-zheng.github.io/publication/</link>
+    <description>Recent content in Publications on QUAN ZHENG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Quan Zheng</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://quan-zheng.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning to importance sample in primary sample space</title>
+      <link>https://quan-zheng.github.io/publication/impsamplepss19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/impsamplepss19/</guid>
+      <description> Preprint [PDF (19.4 MB)]
+ Supplementary materials [PDF (6.3 MB)]
+ Bibtex [bibtex]
+  </description>
+    </item>
+    
+    <item>
+      <title>Removing Monte Carlo Noise Using a Sobel Operator and a Guided Image Filter</title>
+      <link>https://quan-zheng.github.io/publication/removemcnoise18/</link>
+      <pubDate>Mon, 01 Jan 2018 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/removemcnoise18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeuroLens: data-driven camera lens simulation using neural networks</title>
+      <link>https://quan-zheng.github.io/publication/neurolens16/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/neurolens16/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Adaptive sparse polynomial regression for camera lens simulation</title>
+      <link>https://quan-zheng.github.io/publication/polylens17/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/polylens17/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Adaptive rendering with adaptive order selection</title>
+      <link>https://quan-zheng.github.io/publication/17grapp_adaptiveorderselection/</link>
+      <pubDate>Wed, 01 Feb 2017 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/17grapp_adaptiveorderselection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive light paths sampling through full lens model</title>
+      <link>https://quan-zheng.github.io/publication/16icnc_adaptivelightpathssampling/</link>
+      <pubDate>Sun, 01 May 2016 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/16icnc_adaptivelightpathssampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual importance-based adaptive photon tracing</title>
+      <link>https://quan-zheng.github.io/publication/viapt15/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 -0400</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/viapt15/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Optical simulation based on physically based renderer</title>
+      <link>https://quan-zheng.github.io/publication/18spie_opticalsimulation/</link>
+      <pubDate>Fri, 01 May 2015 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/18spie_opticalsimulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photon shooting with programmable scalar contribution function</title>
+      <link>https://quan-zheng.github.io/publication/15icig_photonshooting/</link>
+      <pubDate>Wed, 01 Apr 2015 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/15icig_photonshooting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Photon tracing with Visual Importance Guidance</title>
+      <link>https://quan-zheng.github.io/publication/14jcadcg_visualimportance/</link>
+      <pubDate>Mon, 01 Dec 2014 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/14jcadcg_visualimportance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realistic Rendering of Lens Ghost Effects</title>
+      <link>https://quan-zheng.github.io/publication/14jcadcg_lensghost/</link>
+      <pubDate>Tue, 01 Apr 2014 19:21:21 -0500</pubDate>
+      
+      <guid>https://quan-zheng.github.io/publication/14jcadcg_lensghost/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
