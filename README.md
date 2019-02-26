@@ -1,2 +1,2 @@
 # quan-zheng.github.io
-Personal website
+Personal academic website
