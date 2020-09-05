@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	
+<head>
+
+    <meta charset="utf-8">
+	
+	<title>Neural Light Field 3D Printing</title>
+	
+	<script src="app/jquery-2.1.1.min.js"></script>
+	<script src="app/app.js"></script>
+	<link rel="stylesheet" type="text/css" href="app/app.css" />
+	<link rel="stylesheet" type="text/css" href="css/fontello.css" />
+	<style type="text/css" media="screen">
+	
+	
+	
+	
+		body {
+			font-family: 'Open Sans', sans-serif;
+			color: #222;
+		}
+		
+		h1, h2, h3, h4, p#authors, p#affiliation {
+			font-family: 'Roboto', sans-serif;			
+		}
+		
+		p#authors{
+			font-size: 1.1em;
+		}
+		
+		a {
+			color: rgb(101, 124, 157);
+			text-decoration: none;
+		}
+				
+		a:hover {
+			text-decoration: underline;
+		}
+		
+		ul {
+			list-style-type: none;
+			padding-left: 1em;
+			margin-left: 10px;
+		}
+		
+		p {
+			text-align: justify
+		}
+		
+		code {
+			font-family: 'Roboto Mono', monospace;
+		}
+		
+		pre {
+			background-color: #f0f0f6;
+			padding: 1em;
+		}
+		
+		h1, h2, h3, h4 {
+			font-weight: 700;
+		}
+		
+		h2 {
+			margin-top: 1.5em;
+			margin-bottom: 0.5em;
+		}
+		
+		h3 {
+			margin-top: 1.0em;
+			margin-bottom: 0.5em;
+		}
+		
+		h4 {
+			margin-top: 1.0em;
+			margin-bottom: 0.2em;
+		}
+		
+		h1.project-name, p#authors {
+			margin-bottom: -0.5em;
+		}
+		
+		h1.project-name, h2.project-name, h3.project-name, p#authors, p#affiliation, p#footer {
+			text-align:center;
+		}
+		
+		
+		h2.project-name {
+			font-weight: 100;
+		}
+		
+		h3.project-name {
+			font-weight: 100;
+		}
+		
+
+		.projectPageIcon {
+			margin: 0.2em 0.2em 0 1em !important;
+		}
+
+		.linkIcon {
+			float: none !important;
+			width: 1em;
+			height: 1em;
+		}
+
+		.pdfIcon {
+			margin: 0.2em 0.2em 0 0 !important;
+		}
+
+		.file-icon {
+			width: 2em;
+			height: 2em;
+			background-size: 2em 2em;
+			margin: auto 0;
+		}
+
+		.download-scene {
+			width:calc(50% - 0.5em);
+			margin-right: 1em;
+			margin-bottom: 1em;
+		}
+		
+		.download-scene:nth-child(even) {
+			margin-right: 0;
+		}
+				
+		div#content-wrapper {
+			width: 68%;
+			max-width: 56em;
+			margin: auto;
+		}
+		
+		img#teaser {
+			width: 100%;
+			margin-top: 1em;
+		}
+				
+		img.logo1 {
+			width: 40%;
+			display: inline;
+		}
+		img.logo2 {
+			width: 30%;
+			margin-left: 14em;
+			display: inline;
+		}
+		
+		.my-icon {
+			font-size: 1.1em;
+			margin-right: 0.3em;
+		}
+		
+		p#scene-wrapper {
+			margin-bottom: 0;
+		}
+		
+		.youtube-container {
+			  position: relative; 
+			  padding-bottom: 56.25%; /* ratio 16x9 */
+			  height: 0; 
+			  overflow: hidden; 
+			  width: 100%;
+			  height: auto;
+			  margin: 1.2em 0;
+		}
+		.youtube-container iframe {
+			  position: absolute; 
+			  top: 0; 
+			  left: 0; 
+			  width: 100%; 
+			  height: 100%; 
+			  border: 0;
+		}
+		
+		.bibtex pre
+		{
+			margin-bottom: 0;
+			font-family: Consolas, Monaco, monospace;
+			white-space: pre-wrap; /* CSS 3 */
+			white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+			white-space: -pre-wrap; /* Opera 4-6 */
+			white-space: -o-pre-wrap; /* Opera 7 */
+			word-wrap: break-word; /* IE 5.5+ */
+			width: 95%;
+			color: #444;
+			padding: 10px;
+			background: #eee;
+			border: 1px solid #ccc;
+			overflow: auto;
+		}
+				
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="content-wrapper">
+	
+	
+	<h1 class="project-name">Neural Light Field 3D Printing</h1>
+	<br>
+	<h3 class="project-name">SIGGRAPH Asia 2020 (ACM Transactions on Graphics, 39(6), to appear)</h3>
+	
+	
+  	<p id="authors">
+	    <a href="https://quan-zheng.github.io/">Quan Zheng</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://cam.mpi-inf.mpg.de/?view=people_vahid">Vahid Babaei</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://people.mpi-inf.mpg.de/~hpseidel/">Hans-Peter Seidel</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		<a href="http://www.cs.umd.edu/~zwicker/">Matthias Zwicker</a><sup>3</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a><sup>1</sup>
+	</p>
+	
+	<p id="affiliation">
+		<sup>1</sup>Max Planck Institute for Informatics&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>Stanford University&nbsp;&nbsp;&nbsp;&nbsp;<sup>3</sup>University of Maryland, College Park
+	</p>
+		
+	<div>
+		<img src="teaser.png" alt="teaser figure" id="teaser" />
+		<p><i>
+Our approach encodes input light field imagery (b) as a continuous representation of the volumetric attenuator using neural networks (a). 
+Top row shows the fabricated prototypes using our approach that optimizes both planar (c) and non-planar displays (d). 
+Bottom row compares the central view (red inset) of the input light field (b) with front-view photographs of printed prototypes.
+		</i></p>
+	</div>
+
+	  
+	<h2>Abstract</h2>
+	
+	<p>	Modern 3D printers are capable of printing large-size light-field displays at high-resolutions. However, 
+	optimizing such displays in full 3D volume (for a given light-field imagery) is still a challenging task. 
+	Existing light field displays optimize--- over relatively small resolutions---using a few co-planar layers in a 2.5D fashion to keep the problem tractable. 
+	In this paper, we propose a novel end-to-end optimization approach that encodes input light field imagery as a continuous-space implicit representation in a neural network. 
+	This allows fabricating high resolution, attenuation-based volumetric displays that exhibit the target light field.
+	In addition, we incorporate the physical constraints of the material to the optimization such that the result can be printed in practice. 
+	Our simulation experiments demonstrate that our approach brings significant visual quality improvement compared to the multi-layer and uniform grid-based approaches. 
+	We validate our simulations with fabricated prototypes and demonstrate that our pipeline is flexible enough to optimize for both planar and non-planar displays.
+	</p>
+	  
+	<h2>Materials</h2>
+
+	<ul style="list-style-type:disc;">
+		<li><a href="../NeuralLightField3DPrinting_2020.pdf">Paper</a> (5 MB)</li>
+		<li><a href="../NeuralLightField3DPrinting_Supplemental_Document.pdf">Supplemental pdf</a> (2 MB)</li>
+		<li><a href="https://drive.google.com/uc?id=1EGwwQsAlw4C1IS6jgK_4P9uP0Rf4ICug&export=download">Supplemental_Material_Archive</a> (175 MB)</li>
+		<li><a href="">Code</a> (coming soon)</li>
+	<!--	<li><a href="./bib/bibtex.bib">Bibtex</a> (1 KB)</li> -->
+	</ul>
+	
+	
+	
+	<h2>Citation</h2>
+	<ul style="list-style-type:disc;">
+		<li><a href="bibtex.bib" target="_blank">Bibtex.bib</a> (1 KB)</li>
+	</ul>
+	
+	<div class="section bibtex">
+	<pre>@article{neurallfprint2020,
+title={Neural Light Field 3D Printing},
+author={Zheng, Quan and Babaei, Vahid and Wetzstein, Gordon and Seidel, Hans-Peter and Zwicker, Matthias and Singh, Gurprit},
+journal={ACM Transactions on Graphics (TOG)},
+volume={39},
+number={6},
+articleno = {207},
+year={2020},
+numpages = {12},
+doi = {10.1145/3414685.3417879},
+publisher={ACM New York, NY, USA}
+}
+</pre></div>
+	
+	
+	<h2>Acknowledgments</h2>
+	<p>We would like to thank all anonymous reviewers for their valuable feedback. The first author is funded by the Research Executive Agency 739578.</p>
+	
+	</div>
+	
+	</br>	
+		
+	<p id="footer">
+		<small>&copy; 2020 the paper authors. All rights reserved.</small>
+	</p>
+	
+
+	</div>		  
+	
+	<!--<h2>Video</h2>
+	<p>
+	<iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/abcdefghi" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<br />
+	</p>
+    -->	
+	
+	<!--<div>
+		<img src="Logo_MPII.png" alt="Logo MPI" class="logo1" />
+	</div>-->
+	
+</body>
+</html>
