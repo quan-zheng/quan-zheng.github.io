@@ -624,8 +624,8 @@ a[data-fancybox] img {
 }
 
 #profile .portrait {
-  width: 330px;
-  height: 440px;
+  width: 196px;
+  height: 265px;
   margin: 0 auto;
   border-radius: 60%;
   object-fit: cover;
