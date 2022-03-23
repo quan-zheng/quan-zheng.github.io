@@ -624,10 +624,10 @@ a[data-fancybox] img {
 }
 
 #profile .portrait {
-  width: 196px;
-  height: 265px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
-  border-radius: 60%;
+  border-radius: 45%;
   object-fit: cover;
 }
 
